@@ -18,8 +18,8 @@ Follow these steps to get your local AI stack up and running.
 1. Clone the Repository
 First, clone this project to your local machine:
 Bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/cuccurese2010/Local-AI-Stack.git
+cd Local-AI-Stack
 
 2. Prepare Configuration Files
 Ensure your directory structure looks like this:
