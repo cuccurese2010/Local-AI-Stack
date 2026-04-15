@@ -17,18 +17,15 @@ WSL2 (if running on Windows)
 Follow these steps to get your local AI stack up and running.
 1. Clone the Repository
 First, clone this project to your local machine:
-Bash
 git clone https://github.com/cuccurese2010/Local-AI-Stack.git
 cd Local-AI-Stack
 
 2. Deploy with Docker Compose
 Run the following command to download the images and start the containers in background mode:
-Bash
 docker compose up -d
 
 3. Verify the Installation
 Check if all containers are running:
-Bash
 docker ps
 You should see ollama, open-webui, searxng, and kokoro-tts in the list.
 
