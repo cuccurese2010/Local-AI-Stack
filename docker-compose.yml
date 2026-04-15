@@ -133,6 +133,8 @@ services:
       - openwebui-data:/app/backend/data
     environment:
       - OLLAMA_BASE_URL=http://ollama:11434
+      # SET DEFAULT MODEL ON STARTUP
+      - DEFAULT_MODELS=gemma4:e4b
       # Web Search configuration via SearXNG
       - ENABLE_WEB_SEARCH=true
       - WEB_SEARCH_ENGINE=searxng
