@@ -17,8 +17,7 @@ WSL2 (if running on Windows)
 Follow these steps to get your local AI stack up and running.
 1. Clone the Repository
 First, clone this project to your local machine:
-git clone https://github.com/cuccurese2010/Local-AI-Stack.git
- cd Local-AI-Stack
+git clone https://github.com/cuccurese2010/Local-AI-Stack.git && cd Local-AI-Stack
 
 3. Deploy with Docker Compose
 Run the following command to download the images and start the containers in background mode:
