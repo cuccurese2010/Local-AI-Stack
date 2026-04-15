@@ -21,17 +21,12 @@ Bash
 git clone https://github.com/cuccurese2010/Local-AI-Stack.git
 cd Local-AI-Stack
 
-2. Prepare Configuration Files
-Ensure your directory structure looks like this:
-docker-compose.yml
-searxng/settings.yml (This file is required for SearXNG to start correctly)
-
-3. Deploy with Docker Compose
+2. Deploy with Docker Compose
 Run the following command to download the images and start the containers in background mode:
 Bash
 docker compose up -d
 
-4. Verify the Installation
+3. Verify the Installation
 Check if all containers are running:
 Bash
 docker ps
@@ -39,4 +34,4 @@ You should see ollama, open-webui, searxng, and kokoro-tts in the list.
 
 5. Access the Web Interface
 Once everything is running, open your browser and go to:
-http://localhost:3000
+https://localhost
