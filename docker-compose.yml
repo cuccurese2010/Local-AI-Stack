@@ -133,7 +133,7 @@ services:
       - AUDIO_TTS_OPENAI_API_KEY=not-needed
       - AUDIO_TTS_MODEL=kokoro
       - AUDIO_TTS_VOICE=af_bella # if_sara Voce italiana femminile 
-
+      - WHISPER_MODEL=small
     depends_on:
       - ollama
       - kokoro-tts
