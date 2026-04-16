@@ -3,7 +3,7 @@ A production-ready local AI stack featuring Ollama, Open WebUI, SearXNG for web 
 This project provides a complete, localized AI environment using Docker Compose. It integrates a Large Language Model (LLM) via Ollama, a user-friendly interface with Open WebUI, text-to-speech capabilities via Kokoro, and private web searching using SearXNG.
 
 🚀 Features
-Fully Local: Run models like Gemma 4 without external API dependencies.
+Fully Local: Run models like llama3 without external API dependencies.
 GPU Accelerated: Configured for NVIDIA GPUs (RTX 3080 12GB tested) via WSL2.
 Web Search: Integrated SearXNG for real-time information retrieval.
 Voice Synthesis: High-quality TTS using the Kokoro engine.
