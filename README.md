@@ -7,6 +7,7 @@ Fully Local: Run models like llama3 without external API dependencies.
 GPU Accelerated: Configured for NVIDIA GPUs (RTX 3080 12GB tested) via WSL2.
 Web Search: Integrated SearXNG for real-time information retrieval.
 Voice Synthesis: High-quality TTS using the Kokoro engine.
+
 🛠 Prerequisites
 Before you begin, ensure you have the following installed:
 Docker and Docker Compose
@@ -15,19 +16,19 @@ WSL2 (if running on Windows)
 
 🚀Installation & Setup
 Follow these steps to get your local AI stack up and running.
-1. Clone the Repository
-First, clone this project to your local machine:
-git clone https://github.com/cuccurese2010/Local-AI-Stack.git && cd Local-AI-Stack
+# 1. Clone the Repository
+* First, clone this project to your local machine:
+* git clone https://github.com/cuccurese2010/Local-AI-Stack.git && cd Local-AI-Stack
 
-3. Deploy with Docker Compose
-Run the following command to download the images and start the containers in background mode:
-docker compose up -d
+# 2. Deploy with Docker Compose
+* Run the following command to download the images and start the containers in background mode:
+* docker compose up -d
 
-4. Verify the Installation
-Check if all containers are running:
-docker ps
-You should see ollama, open-webui, searxng, and kokoro-tts in the list.
+# 3. Verify the Installation
+* Check if all containers are running:
+* docker ps
+* You should see ollama, open-webui, searxng, and kokoro-tts in the list.
 
-5. Access the Web Interface
-Once everything is running, open your browser and go to:
-https://localhost
+# 4. Access the Web Interface
+* Once everything is running, open your browser and go to:
+* https://localhost
